@@ -1,0 +1,29 @@
+.Greet{
+  font-style: italic;
+}
+
+.count-container{
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.count-display{
+  font-size: 10em;
+  margin-top: 0px;
+  margin-bottom: 100px;
+}
+.counter-button{
+  margin: 5px;
+  padding: 5px;
+  font-size: 2em;
+  background-color: #f4d7;
+  color: black;
+  border-radius: 5px;
+  border:  none;
+
+}
+
+.counter-button:hover{
+  background-color: blue;
+  color: white;
+}

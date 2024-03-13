@@ -1,0 +1,93 @@
+.card{
+  border: 1px solid rgb(220, 193, 193);
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px rgb(194, 239, 154);
+  padding: 20px 18px;
+  margin: 10px;
+  text-align: center;
+  max-width:  60%;
+  display: inline-block;
+}
+
+.card .card-image{
+  max-width: 50%;
+  height:auto;
+  border-radius: 80%;
+}
+
+.card .card-title{
+  font-size: 2.5em;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: hsl(0%, 10%, 10%);
+}
+
+.card .card-text{
+  font-size: 2em;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 200;
+  color:rgba(15, 14, 14, 0.534);
+}
+
+.Student{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 2em;
+  padding: 10px;
+  border: 1px solid hsla(0, 0%, 50%, 0.8);
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px gold;
+}
+
+.Student p{
+  background-color: rgb(211, 236, 228);
+  justify-content: center;
+  text-align: center;
+}
+
+.welcome-message{
+  font-size: 1rem;
+  background-color: aquamarine;
+
+}
+.welcome-message:hover{
+  font-size: 3rem;
+  color: tomato;
+  transition-duration: 2000ms;
+  justify-content: center;
+  text-align: center;
+}
+
+.list-categoryName{
+    font-size: 2.5em;
+    font-weight: bolder;
+    margin: 10px;
+    color: rgb(58, 57, 55);
+    text-align: center;
+    border: 5px solid black;
+    border-radius: 5px;
+    background-color: bisque;
+}
+
+
+.list-name li{ 
+font-size: 2em;
+list-style: none;
+color: rgb(187, 167, 86);
+text-align: center;
+margin: 0;
+}
+
+.list-name li:hover{
+  color: aquamarine;
+  cursor: pointer;
+}
+
+.Button{
+  font-size: 10em;
+}
+.Button:hover{
+ font-size: 10em;
+ background-color: aqua;
+ color: black;
+ 
+ border-radius: 10px;
+}
